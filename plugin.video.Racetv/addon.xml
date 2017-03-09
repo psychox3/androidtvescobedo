@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Racetv"
+       name="[COLOR red]RACETV TURBO[/COLOR]"
+       version="2.7"
+       provider-name="[COLOR white]Intrcomp Media[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>http://racetv-boricua.net, Basado en LiveStream Pro de Shani [/COLOR]</summary>
+    <description>Por más de media década RACETV BORICUA, se ha esforzado por llevar las raíces boricuas a todos los espectadores.
+	Nuestra misión es la promoción de su negocio u organización, con tan solo una DONACION DE [COLOR gold]$10.00[/COLOR] POR MES.
+	el anuncio de su negocio llegará a un plano internacional. Anímate a llegar a más clientes a través de internet.
+	Cabe mencionar que nuestra página está disponible en teléfonos Android, Iphone y Tabletas.
+	Como nos esforzamos por brindar una promoción de excelencia
+	tenemos disponibles el servicio y creación de stickers hechos a su medida y deseo. Comuníquese hoy y pida una cotización.
+	[COLOR lime]Luisacevedo1973@hotmail.com[/COLOR] o [COLOR lime]joseperez1765@gmail.com[/COLOR] , Contactenos [COLOR lime]1-727-302-1910[/COLOR]
+	Somos una organización 100% boricua.
+	Solicite una cotización hoy.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

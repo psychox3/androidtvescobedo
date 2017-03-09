@@ -1,0 +1,15 @@
+v1.4 -
+MamaHD Scraper added (Works On UFC Nights)
+
+v1.3 -
+Sportsdevil Fix
+Moved Whats New To Main Menu Rather Than Pop-up
+
+v1.1 - 
+Added:
+Search Function
+Information Notification Pop-up 
+
+
+v1.0 - 
+Initial Release

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.goldenmusicpro"
+       name="[B][COLOR red]G[/COLOR][COLOR white]OL[COLOR red]D[/COLOR][COLOR white]E[/COLOR][COLOR cyan]N[/COLOR]  [COLOR dodgerblue]M[/COLOR][COLOR yellow]USIC[/COLOR][/B]"
+       version="1.2"
+       provider-name="Sahid Freeworld">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Golden Music Pro new addon para Kodi</summary>
+    <description>Golden Music Pro</description>
+    <platform>all</platform>
+  </extension>
+</addon>
