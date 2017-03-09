@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-	<category label="Logins">
-		<setting id="diskokosmiko-username" type="text" label="Username DiskoKosmiko" default=""/>
-		<setting id="file-subtitles" type="bool" label="Activar subtitulos desde el archivo" default="true"/>
-		<setting id="warning" type="bool" label="Aviso" default="true" visible="false"/>
-	</category>
-</settings>
